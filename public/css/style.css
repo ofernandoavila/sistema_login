@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#form-login {
+  width: 20%;
+}
+#form-login .alerta {
+  border-radius: 8px;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+#form-login .alerta-erro {
+  background: rgba(255, 0, 0, 0.3);
+  border: 1px solid #ff0000;
+}
+#form-login .alerta-sucesso {
+  background: rgba(40, 187, 60, 0.3);
+  border: 1px solid #28bb3c;
+}
+#form-login form {
+  padding: 32px 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#form-login form h3 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+#form-login form .row {
+  display: flex;
+  justify-content: center;
+}
+#form-login form .input-group {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 8px;
+  width: 100%;
+}
+#form-login form .input-group p {
+  font-size: 12px;
+  color: red;
+  font-weight: 300;
+}
+#form-login form .input-group input {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  padding: 8px;
+}
+#form-login form .input-group:nth-of-type(2) {
+  margin-left: 8px;
+}
+#form-login form a {
+  display: flex;
+  margin-top: 8px;
+}
+
+#form-cadastro {
+  width: 20%;
+}
+#form-cadastro .alerta {
+  border-radius: 8px;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+#form-cadastro .alerta-erro {
+  background: rgba(255, 0, 0, 0.3);
+  border: 1px solid #ff0000;
+}
+#form-cadastro .alerta-sucesso {
+  background: rgba(40, 187, 60, 0.3);
+  border: 1px solid #28bb3c;
+}
+#form-cadastro form {
+  padding: 32px 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#form-cadastro form h3 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+#form-cadastro form .row {
+  display: flex;
+  justify-content: center;
+}
+#form-cadastro form .input-group {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 8px;
+  width: 100%;
+}
+#form-cadastro form .input-group p {
+  font-size: 12px;
+  color: red;
+  font-weight: 300;
+}
+#form-cadastro form .input-group input {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  padding: 8px;
+}
+#form-cadastro form .input-group:nth-of-type(2) {
+  margin-left: 8px;
+}
+#form-cadastro form a {
+  display: flex;
+  margin-top: 8px;
+}
+
+/*# sourceMappingURL=style.css.map */
